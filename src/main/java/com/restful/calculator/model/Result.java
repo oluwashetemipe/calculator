@@ -1,5 +1,6 @@
 package com.restful.calculator.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeId;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -8,5 +9,10 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Result {
-    private Long result;
+
+    private long id;
+    private double result;
+
+
+    //    private List<Integer> operands;
 }
