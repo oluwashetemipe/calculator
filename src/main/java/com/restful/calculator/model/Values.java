@@ -8,5 +8,5 @@ import java.util.List;
 public class Values {
     private double firstOperand;
     private double secondOperand;
-
+    private String operator;
 }
