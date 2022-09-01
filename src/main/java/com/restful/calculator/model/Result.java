@@ -10,7 +10,6 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class Result {
 
-    private long id;
     private double result;
 
 
